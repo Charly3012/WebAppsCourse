@@ -1,0 +1,39 @@
+.apps {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define columnas responsivas */
+    gap: 20px; /* Espacio entre tarjetas */
+    padding: 20px; /* Espacio alrededor del contenedor de tarjetas */
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px; /* Espacio interno en las tarjetas */
+}
+
+.card img {
+    width: 70%;
+    height: auto;
+}
+
+.card p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.card button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.card button:hover {
+    background-color: #0056b3;
+}
